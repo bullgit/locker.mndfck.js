@@ -1,0 +1,38 @@
+#alert{
+  position:absolute;
+  z-index:12;
+  width:12em;
+  height:6em;
+  background:#fff;
+  margin:32vh auto;
+  left:0;right:0;
+  text-align:center;
+  line-height:6.6;
+  box-shadow:0 0 0 1000000em rgba(0,0,0,.8);
+  display:none;
+  animation:move 30s linear;
+}
+
+@keyframes move{
+  0%{}
+  5%{left:-15em;}
+  10%{top:-10em;}
+  15%{left:18em;}
+  20%{top:14em;}
+  25%{left:-20em;}
+  30%{left:5em;}
+  35%{top:9em;}
+  40%{right:2em;}
+  45%{bottom:2em;}
+  50%{top:12em;}
+  55%{}
+  60%{left:-15em;}
+  65%{top:-10em;}
+  70%{left:18em;}
+  75%{top:14em;}
+  80%{left:-20em;}
+  85%{left:5em;}
+  90%{top:9em;}
+  95%{right:2em;}
+  100%{left:0;right:0;top:30vh}
+}

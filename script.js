@@ -1,0 +1,1 @@
+$(document).ready(function(){var e="b",t="o",n="d",r="y",i="e";if(lock==!![])$(e+t+n+r).css(e+"ackgroun"+n,"re"+n).find("#alert").fadeIn();else $(e+t+n+r).css(e+"ackgroun"+n,"gr"+i+"en")});
